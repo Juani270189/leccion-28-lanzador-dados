@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanzador de dados</title>
+</head>
+<body>
+
+    <h1>Lanzador de dados</h1>
+
+    <p>Pulsa el botón para lanzar el dado.</p>
+
+    <h2 id="resultado">🎲</h2>
+
+    <button id="lanzar">Lanzar dado</button>
+
+<script>
+    const boton = document.getElementById("lanzar");
+    const resultado = document.getElementById("resultado");
+
+    boton.addEventListener("click", function() {
+        const numero = Math.floor(Math.random() * 6) + 1;
+         resultado.textContent = numero;
+    });
+</script>
+
+</body>
+</html>
