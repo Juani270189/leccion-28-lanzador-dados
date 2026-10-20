@@ -21,4 +21,4 @@ Lo solucioné cambiando `resultados` por `resultado`.
 
 ## Enlace a la aplicación
 
-Pendiente de publicación.
+https://juani270189.github.io/leccion-28-lanzador-dados/
